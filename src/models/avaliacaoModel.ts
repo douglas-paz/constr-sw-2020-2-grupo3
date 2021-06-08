@@ -15,7 +15,7 @@ export interface Avaliacao {
   aulas: Array<string>;
 }
 
-export interface AvaliacaoDocument extends Avaliacao, mongoose.Document {}
+export interface AvaliacaoDocument extends Avaliacao, mongoose.Document { }
 
 const schema = new mongoose.Schema({
   nome: {
